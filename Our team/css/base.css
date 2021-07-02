@@ -8,6 +8,28 @@
     src: url("../fonts/Cairo-SemiBold.ttf");
 }
 
+#tour{
+    position: fixed;
+    top: 3%;
+    left: 3%;
+    z-index: 999999999;
+    padding: 10px 30px;
+    margin: 20px;   
+    color: #FCD7AD;
+    background-color: #8D2F4B;
+    font-size: 30px;
+    border: 1px solid #8D2F4B;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+#tour:hover{
+    /* background-color: #FCD7AD;
+    color: #8D2F4B; */
+    text-decoration: underline;
+    transition: .5s;
+}
+
 
 article,
 aside,
