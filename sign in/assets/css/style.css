@@ -1,0 +1,20 @@
+.form-container {
+    margin-top: 245px;
+    width: 100vw;
+    height: 50vh;
+    display: grid;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+.row  {
+/*    justify-content: center;*/
+}
+
+.logo {
+    position: absolute;
+    left: 35%;
+    top: 0%;
+    z-index: 9999;
+    width: 30%;
+}

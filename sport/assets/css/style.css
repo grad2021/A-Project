@@ -1,0 +1,118 @@
+body,html  {
+    background: rgb(168,218,220);
+background: linear-gradient(153deg, rgba(168,218,220,1) 0%, rgba(0,109,119,1) 66%);
+}
+
+.active {
+    color: #fff !important;
+    background-color: #83c5be;
+}
+
+.content h4 {
+    
+}
+
+.intertainment-nav {
+    /*    padding-top: 20px;*/
+    /*    padding-bottom: 20px;*/
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.intertainment-nav .navbar-brand {
+    width: 100px;
+}
+
+.para, .card-text {
+    line-height: 1.8;
+}
+.para{
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item {
+    text-align: right;
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item .nav-link {
+    font-weight: bold;
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(1) .nav-link {
+    color: #EF476F
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(2) .nav-link {
+    color: #FFD166
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(3) .nav-link {
+    color: #06D6A0
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(4) .nav-link {
+    color: #118AB2
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(5) .nav-link {
+    color: #073B4C
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(6) .nav-link {
+    color: #EF476F
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(7) .nav-link {
+    color: #FFD166
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(8) .nav-link {
+    color: #06D6A0
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(9) .nav-link {
+    color: #118AB2
+}
+
+
+.content {
+    padding-top: 50px;
+}
+
+.content h2 {
+    margin-bottom: 30px;
+    color: #06D6A0;
+}
+
+.content .theature-info {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    height: 100%;
+}
+
+.content .theature-info p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+
+
+
+
+
+
+/*Start Media Quiery*/
+
+@media (min-width: 992px) {
+    .intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav {
+        flex-direction: row-reverse;
+    }
+}

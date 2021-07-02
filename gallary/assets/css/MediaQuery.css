@@ -1,0 +1,309 @@
+@media (min-width: 576px) {
+
+    /*>>>>>>>>>>>>>>>>>>>Start About Section<<<<<<<<<<<<<<*/
+    .about .col,
+    .about .col-1,
+    .about .col-10,
+    .about .col-11,
+    .about .col-12,
+    .about .col-2,
+    .about .col-3,
+    .about .col-4,
+    .about .col-5,
+    .about .col-6,
+    .about .col-7,
+    .about .col-8,
+    .about .col-9,
+    .about .col-auto,
+    .about .col-lg,
+    .about .col-lg-1,
+    .about .col-lg-10,
+    .about .col-lg-11,
+    .about .col-lg-12,
+    .about .col-lg-2,
+    .about .col-lg-3,
+    .about .col-lg-4,
+    .about .col-lg-5,
+    .about .col-lg-6,
+    .about .col-lg-7,
+    .about .col-lg-8,
+    .about .col-lg-9,
+    .about .col-lg-auto,
+    .about .col-md,
+    .about .col-md-1,
+    .about .col-md-10,
+    .about .col-md-11,
+    .about .col-md-12,
+    .about .col-md-2,
+    .about .col-md-3,
+    .about .col-md-4,
+    .about .col-md-5,
+    .about .col-md-6,
+    .about .col-md-7,
+    .about .col-md-8,
+    .about .col-md-9,
+    .about .col-md-auto,
+    .about .col-sm,
+    .about .col-sm-1,
+    .about .col-sm-10,
+    .about .col-sm-11,
+    .about .col-sm-12,
+    .about .col-sm-2,
+    .about .col-sm-3,
+    .about .col-sm-4,
+    .about .col-sm-5,
+    .about .col-sm-6,
+    .about .col-sm-7,
+    .about .col-sm-8,
+    .about .col-sm-9,
+    .about .col-sm-auto,
+    .about .col-xl,
+    .about .col-xl-1,
+    .about .col-xl-10,
+    .about .col-xl-11,
+    .about .col-xl-12,
+    .about .col-xl-2,
+    .about .col-xl-3,
+    .about .col-xl-4,
+    .about .col-xl-5,
+    .about .col-xl-6,
+    .about .col-xl-7,
+    .about .col-xl-8,
+    .about .col-xl-9,
+    .about .col-xl-auto {
+        padding: 0;
+    }
+
+    /*>>>>>>>>>>>>>>>>>>>End About Section<<<<<<<<<<<<<<<*/
+    /*>>>>>>>>>>>>>>>>>>>Start Gallary Section<<<<<<<<<<<<<<*/
+    .gallary .grid {
+        grid-template-columns: repeat(14, 1fr);
+    }
+
+    .gallary .item.small,
+    .gallary .item.medium,
+    .gallary .item.large,
+    .gallary .item.tall,
+    .gallary .item.wide {
+        grid-row: span 7;
+        grid-column: span 7;
+    }
+
+    /*>>>>>>>>>>>>>>>>>>>>End Gallary Section<<<<<<<<<<<<<<<*/
+    /*>>>>>>>>>>>>>>>>>>>>Start Contact-Us Section<<<<<<<<<<<<<<<*/
+    .contact-us .contact h3 {
+        font-size: 50px;
+    }
+
+    /*>>>>>>>>>>>>>>>>>>>>End Contact-Us Section<<<<<<<<<<<<<<<*/
+    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Start Pages<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+    /*>>>>>>>>>>>>>>>>>>>>>>Start UI/UX Page<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+    .layout {
+        -webkit-transform-origin: 115% 75%;
+        transform-origin: 115% 75%;
+    }
+
+    .layout .item {
+        min-height: 200px;
+        width: calc((51vw - 10px) / 2);
+    }
+
+    .con .content a.home {
+        /*
+        display: block;
+        margin-top: -10%;
+        margin-bottom: 15%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+*/
+    }
+
+    .con .content img {
+        width: 15em;
+    }
+
+    .con .content h1 {
+        font-size: 3em;
+    }
+
+    .con .content p {
+        max-width: 930px;
+/*        font-size: 18px;*/
+        line-height: 45px;
+    }
+
+    .con .content a.hire {
+        padding: 1em;
+        font-size: 1em;
+    }
+
+    /*>>>>>>>>>>>>>>>>>>>>>>End UI/UX Page<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>End Pages<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+}
+
+
+@media (min-width: 768px) {
+
+    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Start Pages<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+    .pa-header .content ul > li > div.media {
+        margin-top: 0px;
+    }
+
+    /*>>>>>>>>>>>>>>>>>>>>>>Start UI/UX Page<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+    .layout {
+        -webkit-transform-origin: 135% 68%;
+        transform-origin: 135% 68%;
+    }
+
+    .layout .item {
+        min-height: 300px;
+        width: calc((50vw - 10px) / 2);
+    }
+
+    /*>>>>>>>>>>>>>>>>>>>>>>End UI/UX Page<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>End Pages<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+}
+
+
+@media (min-width: 992px) {
+
+    /*>>>>>>>>>>>>>>>>>>>Start Gallary Section<<<<<<<<<<<<<<*/
+    .gallary .item.small {
+        grid-row: span 3;
+        grid-column: span 2;
+    }
+
+    .gallary .item.medium {
+        grid-row: span 5;
+        grid-column: span 4;
+    }
+
+    .gallary .item.large {
+        grid-row: span 6;
+        grid-column: span 6;
+    }
+
+    .gallary .item.tall {
+        grid-row: span 8;
+        grid-column: span 4;
+    }
+
+    .gallary .item.wide {
+        grid-row: span 4;
+        grid-column: span 6;
+    }
+
+    .gallary .item.small.last {
+        grid-row: span 5;
+    }
+
+    .gallary .item.small.bef-last {
+        grid-row: span 6;
+    }
+
+    .gallary .item.wide.last {
+        grid-row: span 6;
+    }
+    /*>>>>>>>>>>>>>>>>>>>End Gallary Section<<<<<<<<<<<<<<*/
+    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Start Pages<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+    /*>>>>>>>>>>>>>>>>>>>>>>Start UI/UX Page<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+    .con {
+        height: 750px;
+    }
+
+    .layout {
+        -webkit-transform-origin: 185% 55%;
+        transform-origin: 185% 55%;
+    }
+
+    .layout .item {
+        min-height: 320px;
+        width: calc((50vw - 10px) / 2);
+    }
+
+
+    .con .content a.home {
+        display: inline;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .con .content img {
+        width: 200px;
+    }
+
+    .con .content h1 {
+        font-size: 3em;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+
+    .con .content p {
+        max-width: 525px;
+        font-size: 18px;
+    }
+
+    .con .content a.hire {
+        padding: 15px 40px;
+        font-size: 16px;
+    }
+
+
+    /*>>>>>>>>>>>>>>>>>>>>>>End UI/UX Page<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>End Pages<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+}
+
+
+@media (min-width: 1200px) {
+
+    /*>>>>>>>>>>>>>>>>>>>Start Gallary Section<<<<<<<<<<<<<<*/
+    .gallary .item {
+        padding: 100px;
+    }
+
+    /*>>>>>>>>>>>>>>>>>>>End Gallary Section<<<<<<<<<<<<<<*/
+    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Start Pages<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+    /*>>>>>>>>>>>>>>>>>>>>>>Start UI/UX Page<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+    .con {
+        height: 750px;
+    }
+
+    .layout {
+        -webkit-transform-origin: 155% 50%;
+        transform-origin: 155% 50%;
+    }
+
+    .layout .item {
+        min-height: 320px;
+        width: calc((50vw - 10px) / 2);
+    }
+
+
+
+    /*>>>>>>>>>>>>>>>>>>>>>>End UI/UX Page<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>End Pages<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+}
+
+@media (min-width: 1320px) {
+
+    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Start Pages<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+    .con {
+        height: 950px;
+    }
+
+    .layout {
+        -webkit-transform-origin: 150% 65%;
+        transform-origin: 150% 65%;
+    }
+
+    .layout .item {
+        min-height: 320px;
+        width: calc((60vw - 10px) / 2);
+    }
+
+    .con .content p {
+        max-width: 660px;
+    }
+
+    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>End Pages<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+}

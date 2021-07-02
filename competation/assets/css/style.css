@@ -1,0 +1,108 @@
+.active {
+    color: #fff !important;
+    background-color: #118AB2;
+}
+
+.intertainment-nav {
+    /*    padding-top: 20px;*/
+    /*    padding-bottom: 20px;*/
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.intertainment-nav .navbar-brand {
+    width: 100px;
+}
+
+.card-body {
+    color: #fff;
+}
+
+.card-body:hover {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item {
+    text-align: right;
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item .nav-link {
+    font-weight: bold;
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(1) .nav-link {
+    color: #EF476F
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(2) .nav-link {
+    color: #FFD166
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(3) .nav-link {
+    color: #06D6A0
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(4) .nav-link {
+    color: #118AB2
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(5) .nav-link {
+    color: #073B4C
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(6) .nav-link {
+    color: #EF476F
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(7) .nav-link {
+    color: #FFD166
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(8) .nav-link {
+    color: #06D6A0
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(9) .nav-link {
+    color: #118AB2
+}
+
+.competation {
+    margin-top: 70px;
+    direction: rtl;
+    text-align: right;
+}
+
+.competation .toma:nth-child(1) .card {
+    background-color: #06D6A0;
+}
+.competation .toma:nth-child(2) .card {
+    background-color: #FFD166;
+}
+.competation .toma:nth-child(3) .card {
+    background-color: #EF476F;
+}
+
+.competation .card {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.competation .two{
+    margin-top: 10rem;
+}
+
+.competation .three{
+    margin-top: 20rem;
+}
+
+
+/*Start Media Quiery*/
+
+@media (min-width: 768px) {
+    .intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav {
+        flex-direction: row-reverse;
+    }
+}

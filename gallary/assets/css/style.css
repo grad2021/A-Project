@@ -1,0 +1,202 @@
+.active {
+    color: #fff !important;
+    background-color: #06D6A0;
+}
+
+.intertainment-nav {
+    /*    padding-top: 20px;*/
+    /*    padding-bottom: 20px;*/
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.intertainment-nav .navbar-brand {
+    width: 100px;
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item {
+    text-align: right;
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item .nav-link {
+    font-weight: bold;
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(1) .nav-link {
+    color: #EF476F
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(2) .nav-link {
+    color: #FFD166
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(3) .nav-link {
+    color: #06D6A0
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(4) .nav-link {
+    color: #118AB2
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(5) .nav-link {
+    color: #073B4C
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(6) .nav-link {
+    color: #EF476F
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(7) .nav-link {
+    color: #FFD166
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(8) .nav-link {
+    color: #06D6A0
+}
+
+.intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item:nth-child(9) .nav-link {
+    color: #118AB2
+}
+
+/*>>>>>>>>>>>>>>>>>>>Start Gallery Section<<<<<<<<<<<<<<<<*/
+
+.gallary {
+    padding-top: 40px;
+    background: url('../images/gal-bgc.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.gallary h1 {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 55px;
+    font-weight: bold;
+    color: #06D6A0;
+    letter-spacing: 5px;
+}
+
+.gallary .grid {
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(12, 1fr);
+    /*    grid-template-rows: repeat(24, 1fr);*/
+    /*    -webkit-grid-gap: 5px;*/
+    /*    -moz-grid-gap: 5px;*/
+    /*    grid-gap: 5px;*/
+    /*    margin: 0 auto;*/
+    /*    margin-bottom: 60px;*/
+}
+
+.gallary .item {
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    /*    filter: grayscale(1);*/
+    -webkit-transition: opacity 200ms ease;
+    transition: opacity 200ms ease;
+}
+
+/*
+
+.gallary .item:hover {
+    filter: grayscale(.8);
+    cursor: pointer;
+}
+*/
+
+.gallary .item.small,
+.gallary .item.medium,
+.gallary .item.large,
+.gallary .item.tall,
+.gallary .item.wide {
+    grid-column: span 12;
+}
+
+.gallary .item:nth-child(1) {
+    background-image: url('../images/gal1.jpg');
+}
+
+.gallary .item:nth-child(2) {
+    background-image: url('../images/gal2.jpg');
+}
+
+.gallary .item:nth-child(3) {
+    background-image: url('../images/gal3.jpg');
+}
+
+.gallary .item:nth-child(4) {
+    background-image: url('../images/gal4.jpg');
+}
+
+.gallary .item:nth-child(5) {
+    background-image: url('../images/gal5.jpg');
+}
+
+.gallary .item:nth-child(6) {
+}
+
+.gallary .item:nth-child(7) {
+}
+
+.gallary .item:nth-child(8) {
+}
+
+.gallary .item:nth-child(9) {
+    background-image: url('../images/gal6.jpg');
+}
+
+.gallary .item:nth-child(10) {
+    background-image: url('../images/gal10.jpg');
+}
+
+.gallary .item:nth-child(11) {
+    background-image: url('../images/gal11.jpg');
+}
+
+.gallary .item:nth-child(12) {
+    background-image: url('../images/gal12.jpg');
+}
+
+.gallary .item:nth-child(13) {
+}
+
+.gallary .item:nth-child(14) {
+    background-image: url('../images/gal14.jpeg');
+}
+
+.gallary .item:nth-child(15) {
+}
+
+.gallary .item:nth-child(16) {
+}
+
+.item{
+    position: relative;
+}
+
+.item iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*>>>>>>>>>>>>>>>>>>>End Gallery Section<<<<<<<<<<<<<<<<*/
+
+
+/*Start Media Quiery*/
+
+@media (min-width: 768px) {
+    .intertainment-nav .navbar-expand-lg .navbar-collapse .navbar-nav {
+        flex-direction: row-reverse;
+    }
+}
