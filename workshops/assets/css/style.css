@@ -67,7 +67,10 @@ background: linear-gradient(153deg, rgba(155,246,255,1) 0%, rgba(253,255,182,1) 
     color: #118AB2
 }
 
-
+.br iframe {
+    width: 100%;
+    margin-bottom: 30px;
+}
 .workshop {
     text-align: right;
     direction: rtl;
